@@ -1,0 +1,64 @@
+#cabecalho {
+	background-color: #5b78e0;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	font-family: 'Hubballi', cursive;
+
+}
+
+h1, h2, h3 {
+	text-transform: uppercase;
+}
+
+#nomeEProfissao{
+	background-color: #ffffff; 
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#nomeEProfissao h1, h2{
+	margin: 0;
+}
+
+#contato{
+	list-style-type: none;
+}
+
+#contato i{
+	width: 30px;
+	color: #5b78e0;
+}
+
+#container{
+	display: grid;
+	grid-template-columns: 30% auto;
+	grid-column-gap: 20px;
+
+}
+
+#sidebar, #content{
+	display: flex;
+	row-gap: 20px;
+	flex-direction: column; 
+}
+
+.card h3{
+	font-family: 'Hubballi', cursive;
+}
+
+.card{
+	font-family: 'Montserrat', sans-serif;
+	border: 1px solid #a2a1a1;
+	border-radius: 15px;
+	padding: 20px;
+}
+
+p{
+	text-align: justify;
+}
+
+#eu img{
+	border: 5px solid #5b78e0;
+	border-radius: 50%;
+}
